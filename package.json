@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sass src/scss:dist/css",
+    "format": "prettier --write",
+    "lint": "eslint .",
+    "prettierCheck": "prettier --write \"src/**/*.js\"",
+    "eslintCheck": "eslint .",
     "watch": "sass --watch src/scss:dist/css & live-server"
   },
   "repository": {
@@ -27,7 +31,9 @@
   },
   "homepage": "https://github.com/Ousman37/bid-it-auction-platform#readme",
   "devDependencies": {
+    "eslint": "^8.33.0",
     "live-server": "^1.2.2",
+    "prettier": "^2.8.3",
     "sass": "^1.58.0"
   },
   "dependencies": {
