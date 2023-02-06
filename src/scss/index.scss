@@ -1,10 +1,11 @@
-
 // Bootstrap variables overrides
 @import 'variables';
 
-// Bootstrap styles 
+// Bootstrap styles
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
-// Original Styles 
+// Original Styles
 @import './components/header';
+
+@import './components/hero-section';
