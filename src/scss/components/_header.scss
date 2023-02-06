@@ -2,7 +2,7 @@
   border-bottom: 1px solid;
 }
 
-.topbar {
+.top-bar {
   background-color: #212529;
   padding: 0;
 
@@ -38,9 +38,9 @@ header {
   }
 }
 
-.topbar {
+.top-bar {
   li {
-    &.topbar {
+    &.top-bar {
       display: inline;
       padding-right: 18px;
       line-height: 52px;
@@ -137,5 +137,74 @@ li {
   background-color: #222 !important;
 }
 .mx-background-top-linear {
-  background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+  background: linear-gradient(45deg, #11113d 48%, #1b1e21 48%);
 }
+
+.form-inline {
+  display: flex;
+  align-items: center;
+
+  input.form-control {
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 5x;
+    padding: 10px;
+  }
+
+ 
+}
+
+
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  li.nav-item {
+    margin-left: 20px;
+
+    a.nav-link {
+      color: #fff;
+    }
+  }
+}
+
+button.btn-add-sell {
+background-color: rgba(26, 97, 204, 1);
+color: #fff;
+border-radius: 5px;
+padding: 10px 20px;
+font-size: 14px;
+cursor: pointer;
+transition: all 0.3s linear;
+
+&:hover {
+background-color: #067bf9;
+}
+}
+
+button.btn-add-cart {
+ background-color: rgba(6, 141, 28, 1);
+color: #fff;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 14px;
+transition: all 0.3s linear;
+
+&:hover {
+background-color: #7b8487;
+}
+
+i.fa-solid {
+margin-right: 10px;
+}
+}
+
+
+button.btn.btn-add-sell,
+button.btn.btn-add-cart {
+  margin-left: 20px;
+}
+
