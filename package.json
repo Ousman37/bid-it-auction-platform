@@ -1,0 +1,33 @@
+{
+  "name": "bid-it-auction-platform",
+  "version": "0.0.1",
+  "description": "Biding auction website platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ousman37/bid-it-auction-platform.git"
+  },
+  "keywords": [
+    "Biding",
+    "auction",
+    "website",
+    "platform",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Ethmane Didi <ousman.didibela@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ousman37/bid-it-auction-platform/issues"
+  },
+  "homepage": "https://github.com/Ousman37/bid-it-auction-platform#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.58.0"
+  }
+}
